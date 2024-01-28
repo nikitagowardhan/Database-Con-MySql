@@ -42,13 +42,14 @@ public class MyServlet extends HttpServlet {
 
 	            int a = s.executeUpdate(query);
 
-	            if (a > 0) {
+	            if (a > 0) 
+	            {
 	                p.print("DATA INSERTED");
 	            } else {
 	                p.print("DATA NOT INSERTED");
 	            }
 
-	            // Close the connection
+	            
 	            s.close();
 	            c.close();
 
