@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<style>
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-    }
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-    form {
-        text-align: left;
-    }
+        form {
+            text-align: left;
+        }
 
-    div {
-        margin-bottom: 10px;
-    }
-</style>
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+
 <body>
 
-<form action="MyServlet" method="post">
+    <form action="MyServlet" method="post">
 
-    <div>
-    <label for="uname">Name: </label>
-         <input type=" text" name="name" id="uname">
-    </div>
-    
-    <div>
-    <label for="upass">Password: </label>
-         <input type="password" name="upass" id="upass">
-    </div>
-    
-    <div>
-    <label for="uemailid">Email Id: </label>
-         <input type=" text" name="emailid" id="uemailid">
-    </div>
-    
-    
-    <div>
-           Gender : Male <input type="radio" value="male">Female<input type="radio" value="female">
-    </div>
-    
-    <div>
-            Are You Eligible or not : <input type="checkbox" name="ueligiblity" >
+        <div>
+            <label for="uname">Name: </label>
+            <input type="text" name="name" id="uname">
         </div>
-    <br>
-    <div>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </div>
 
-</form>
+        <div>
+            <label for="upass">Password: </label>
+            <input type="password" name="upass" id="upass">
+        </div>
+
+        <div>
+            <label for="uemailid">Email Id: </label>
+            <input type="text" name="emailid" id="uemailid">
+        </div>
+
+        
+
+        <br>
+
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
 </body>
+
 </html>
